@@ -1,52 +1,48 @@
 <table align="center">
     <tr>
         <td align="center" width="25%">
-            <img src="https://raw.githubusercontent.com/GreemDev/ryuassets/refs/heads/main/RyujinxApp_1024.png" alt="Ryujinx" >
+            <img src="https://raw.githubusercontent.com/GreemDev/ryuassets/refs/heads/main/RyojinxApp_1024.png" alt="Ryojinx" >
         </td>
         <td align="center" width="75%">
           
-# Ryujinx
+# Ryojinx
           
-[![Release workflow](https://github.com/Ryubing/Ryujinx/actions/workflows/release.yml/badge.svg)](https://github.com/Ryubing/Ryujinx/actions/workflows/release.yml)
-[![Latest release](https://img.shields.io/github/v/release/GreemDev/Ryujinx)](https://github.com/Ryubing/Ryujinx/releases/latest)
+[![Release workflow](https://github.com/Ryojinx/Ryojinx/actions/workflows/release.yml/badge.svg)](https://github.com/Ryojinx/Ryojinx/actions/workflows/release.yml)
+[![Latest release](https://img.shields.io/github/v/release/GreemDev/Ryojinx)](https://github.com/Ryojinx/Ryojinx/releases/latest)
   <br>
-[![Canary workflow](https://github.com/Ryubing/Ryujinx/actions/workflows/canary.yml/badge.svg)](https://github.com/Ryubing/Ryujinx/actions/workflows/canary.yml)
-[![Latest canary release](https://img.shields.io/github/v/release/Ryubing/Canary-Releases?label=canary)](https://github.com/Ryubing/Canary-Releases/releases/latest)
         </td>
     </tr>
 </table>
 
 <p align="center">
-  THIS IS A PRESERVATION FORK. MORE INFO SOON
-  
-  Ryujinx is an open-source Nintendo Switch emulator, originally created by gdkchan, written in C#.
+  Ryojinx is an open-source Nintendo Switch emulator, originally created by gdkchan, written in C#.
   This emulator aims at providing excellent accuracy and performance, a user-friendly interface and consistent builds.
   It was written from scratch and development on the project began in September 2017.
-  Ryujinx is available on GitHub under the <a href="https://github.com/Ryubing/Ryujinx/blob/master/LICENSE.txt" target="_blank">MIT license</a>.
+  Ryojinx is available on GitHub under the <a href="https://github.com/Ryojinx/Ryojinx/blob/master/LICENSE.txt" target="_blank">MIT license</a>.
   <br />
 </p>
 <p align="center">
-  On October 1st 2024, Ryujinx was discontinued as the creator was forced to abandon the project.
+  On October 1st 2024, Ryojinx was discontinued as the creator was forced to abandon the project.
   <br>
-  This fork is intended to be a QoL uplift for existing Ryujinx users.
+  This fork is intended to be a QoL uplift for existing Ryojinx users.
   <br>
-  This is not a Ryujinx revival project. This is not a Phoenix project.
+  This is not a Ryojinx revival project. This is not a Phoenix project.
   <br>
-  Guides and documentation can be found on the <a href="https://github.com/Ryubing/Ryujinx/wiki">Wiki tab</a>.
+  Guides and documentation can be found on the <a href="https://github.com/Ryojinx/Ryojinx/wiki">Wiki tab</a>.
 </p>
 <p align="center">
-  If you would like a more preservative fork of Ryujinx, check out <a href="https://github.com/ryujinx-mirror/ryujinx">ryujinx-mirror</a>.
+  If you would like a more preservative fork of Ryojinx, check out <a href="https://github.com/Ryojinx-mirror/Ryojinx">Ryojinx-mirror</a>.
 </p>
 
 <p align="center">
     Click below to join the Discord:
     <br>
     <a href="https://discord.gg/PEuzjrFXUA">
-        <img src="https://img.shields.io/discord/1294443224030511104?color=5865F2&label=Ryubing&logo=discord&logoColor=white" alt="Discord">
+        <img src="https://img.shields.io/discord/1294443224030511104?color=5865F2&label=Ryojinx&logo=discord&logoColor=white" alt="Discord">
     </a>
     <br>
     <br>
-    <img src="https://raw.githubusercontent.com/Ryubing/Ryujinx/refs/heads/master/docs/shell.png">
+    <img src="https://raw.githubusercontent.com/Ryojinx/Ryojinx/refs/heads/master/docs/shell.png">
 </p>
 
 ## Usage
@@ -60,13 +56,13 @@ Stable builds are made every so often, based on the `master` branch, that then g
 These stable builds exist so that the end user can get a more **enjoyable and stable experience**.
 They are released every month or so, to ensure consistent updates, while not being an annoying amount of individual updates to download over the course of that month.
 
-You can find the latest stable release [here](https://github.com/Ryubing/Ryujinx/releases/latest).
+You can find the latest stable release [here](https://github.com/Ryojinx/Ryojinx/releases/latest).
 
 Canary builds are compiled automatically for each commit on the `master` branch.
 While we strive to ensure optimal stability and performance prior to pushing an update, these builds **may be unstable or completely broken**.
 These canary builds are only recommended for experienced users.
 
-You can find the latest canary release [here](https://github.com/Ryubing/Canary-Releases/releases/latest).
+You can find the latest canary release [here](https://github.com/Ryojinx/Canary-Releases/releases/latest).
 
 ## Documentation
 
@@ -85,7 +81,7 @@ If you are planning to contribute or just want to learn more about this project 
   It translates the ARM code to a custom IR, performs a few optimizations, and turns that into x86 code.
   There are three memory manager options available depending on the user's preference, leveraging both software-based (slower) and host-mapped modes (much faster).
   The fastest option (host, unchecked) is set by default.
-  Ryujinx also features an optional Profiled Persistent Translation Cache, which essentially caches translated functions so that they do not need to be translated every time the game loads.
+  Ryojinx also features an optional Profiled Persistent Translation Cache, which essentially caches translated functions so that they do not need to be translated every time the game loads.
   The net result is a significant reduction in load times (the amount of time between launching a game and arriving at the title screen) for nearly every game.
   NOTE: This feature is enabled by default in the Options menu > System tab.
   You must launch the game at least twice to the title screen or beyond before performance improvements are unlocked on the third launch!
@@ -94,7 +90,7 @@ If you are planning to contribute or just want to learn more about this project 
 - **GPU**
 
   The GPU emulator emulates the Switch's Maxwell GPU using either the OpenGL (version 4.5 minimum), Vulkan, or Metal (via MoltenVK) APIs through a custom build of OpenTK or Silk.NET respectively.
-  There are currently six graphics enhancements available to the end user in Ryujinx: Disk Shader Caching, Resolution Scaling, Anti-Aliasing, Scaling Filters (including FSR), Anisotropic Filtering and Aspect Ratio Adjustment.
+  There are currently six graphics enhancements available to the end user in Ryojinx: Disk Shader Caching, Resolution Scaling, Anti-Aliasing, Scaling Filters (including FSR), Anisotropic Filtering and Aspect Ratio Adjustment.
   These enhancements can be adjusted or toggled as desired in the GUI.
 
 - **Input**
@@ -105,14 +101,14 @@ If you are planning to contribute or just want to learn more about this project 
 
 - **DLC & Modifications**
 
-  Ryujinx is able to manage add-on content/downloadable content through the GUI.
+  Ryojinx is able to manage add-on content/downloadable content through the GUI.
   Mods (romfs, exefs, and runtime mods such as cheats) are also supported;
   the GUI contains a shortcut to open the respective mods folder for a particular game.
 
 - **Configuration**
 
   The emulator has settings for enabling or disabling some logging, remapping controllers, and more.
-  You can configure all of them through the graphical interface or manually through the config file, `Config.json`, found in the Ryujinx data folder which can be accessed by clicking `Open Ryujinx Folder` under the File menu in the GUI.
+  You can configure all of them through the graphical interface or manually through the config file, `Config.json`, found in the Ryojinx data folder which can be accessed by clicking `Open Ryojinx Folder` under the File menu in the GUI.
 
 ## License
 
