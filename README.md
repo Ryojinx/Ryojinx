@@ -1,7 +1,7 @@
 <table align="center">
     <tr>
         <td align="center" width="25%">
-            <img src="https://raw.githubusercontent.com/Ryojinx/Assets/refs/heads/main/RyojinxApp_1024.png" alt="Ryojinx" >
+            <img src="https://raw.githubusercontent.com/Ryojinx/Assets/refs/heads/main/RyujinxApp_1024.png" alt="Ryojinx" >
         </td>
         <td align="center" width="75%">
           
