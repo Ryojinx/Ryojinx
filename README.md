@@ -31,7 +31,7 @@
   Guides and documentation can be found on the <a href="https://github.com/Ryojinx/Ryojinx/wiki">Wiki tab</a>.
 </p>
 <p align="center">
-  If you would like a more preservative fork of Ryojinx, check out <a href="https://github.com/Ryojinx-mirror/Ryojinx">Ryojinx-mirror</a>.
+  If you would like a more preservative fork of Ryojinx, check out <a href="https://github.com/ryujinx-mirror/Ryujinx">ryujinx-mirror</a>.
 </p>
 
 <p align="center">
